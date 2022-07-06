@@ -1,0 +1,19 @@
+{
+    "name": "reza/hwp-ticket",
+    "description": "hamyar ticket",
+    "authors": [
+        {
+            "name": "reza",
+            "email": "re_hopo_za@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HWP_Ticket\\":"./"
+        }
+    },
+    "require": {
+        "hashids/hashids": "^4.1" ,
+        "guzzle/guzzle": "3.0.*"
+    }
+}
